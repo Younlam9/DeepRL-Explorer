@@ -80,8 +80,12 @@ base: '/DeepRL-Explorer/'
 1. Créer le repository GitHub `DeepRL-Explorer` dans le compte `Younlam9`.
 2. Initialiser Git si nécessaire et pousser le projet sur GitHub.
 3. Exécuter `npm run build`.
-4. Publier le dossier `dist` via GitHub Pages ou configurer une GitHub Action de déploiement.
-5. Vérifier le lien final:
+4. Aller dans `Settings > Pages`.
+5. Dans `Build and deployment`, choisir `GitHub Actions` comme source.
+6. Ne pas ajouter de custom domain.
+7. Ne pas choisir les workflows suggérés `Jekyll` ou `Static HTML`; ce projet utilise le workflow Vite présent dans `.github/workflows/deploy.yml`.
+8. Après un push sur `main`, ouvrir l’onglet `Actions` et attendre la fin du workflow.
+9. Vérifier le lien final:
 
 ```text
 https://Younlam9.github.io/DeepRL-Explorer/
