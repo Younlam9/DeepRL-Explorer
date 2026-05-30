@@ -31,19 +31,8 @@
 
 Le projet transforme les notions théoriques du Deep RL en une expérience interactive : l’utilisateur peut explorer les concepts, manipuler une simulation GridWorld, visualiser une courbe d’apprentissage et comprendre le rôle d’un réseau de neurones dans un Deep Q-Network.
 
-> 🎯 Objectif : rendre le Deep Reinforcement Learning plus clair, plus visuel et plus mémorable qu’un simple notebook.
+>  Objectif : rendre le Deep Reinforcement Learning plus clair, plus visuel et plus mémorable qu’un simple notebook.
 
----
-
-##  Aperçu visuel
-
-<p align="center">
-  <img src=".github/assets/preview-hero.svg" alt="Hero preview" width="32%" />
-  <img src=".github/assets/preview-gridworld.svg" alt="GridWorld preview" width="32%" />
-  <img src=".github/assets/preview-dqn.svg" alt="DQN preview" width="32%" />
-</p>
-
----
 
 ##  Objectif pédagogique
 
