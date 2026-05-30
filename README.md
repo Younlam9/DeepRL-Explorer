@@ -1,8 +1,5 @@
-<p align="center">
-  <img src=".github/assets/banner.svg" alt="Deep RL Explorer banner" width="100%" />
-</p>
 
-<h1 align="center">🧠 Deep RL Explorer</h1>
+<h1 align="center"> Deep RL Explorer</h1>
 
 <p align="center">
   <strong>Une application web interactive pour apprendre le Deep Reinforcement Learning par la visualisation, la simulation et l’expérimentation.</strong>
@@ -28,7 +25,7 @@
 
 ---
 
-## ✨ Présentation
+##  Présentation
 
 **Deep RL Explorer** est une réalisation pratique moderne conçue pour un cours de **Deep Reinforcement Learning**.
 
@@ -38,7 +35,7 @@ Le projet transforme les notions théoriques du Deep RL en une expérience inter
 
 ---
 
-## 🖼️ Aperçu visuel
+##  Aperçu visuel
 
 <p align="center">
   <img src=".github/assets/preview-hero.svg" alt="Hero preview" width="32%" />
@@ -48,40 +45,40 @@ Le projet transforme les notions théoriques du Deep RL en une expérience inter
 
 ---
 
-## 🎓 Objectif pédagogique
+##  Objectif pédagogique
 
 L’application explique comment un agent apprend à prendre de meilleures décisions en interagissant avec un environnement.
 
 Elle met en avant les idées principales du Deep RL :
 
-- 🧩 un agent observe un état ;
-- 🎮 il choisit une action ;
-- 🌍 l’environnement réagit ;
-- 🏆 une récompense guide l’apprentissage ;
-- 📈 la stratégie s’améliore progressivement ;
-- 🧠 un réseau de neurones peut remplacer une Q-table classique.
+-  un agent observe un état ;
+-  il choisit une action ;
+-  l’environnement réagit ;
+-  une récompense guide l’apprentissage ;
+-  la stratégie s’améliore progressivement ;
+-  un réseau de neurones peut remplacer une Q-table classique.
 
 ---
 
-## 🚀 Fonctionnalités
+##  Fonctionnalités
 
 | Module | Description |
 | --- | --- |
-| 🏠 Hero interactif | Introduction moderne avec animation du cycle Agent → Action → Environnement → Récompense |
-| 🧠 Concepts RL | Cartes interactives pour Agent, État, Action, Politique, Q-value, Exploration, Exploitation |
-| 🔁 Agent-Environnement | Schéma animé et cliquable du cycle d’apprentissage |
-| 🤖 GridWorld | Simulation 5x5 avec agent, objectif, piège, obstacles, score et état courant |
-| 🎯 Contrôles | Déplacement manuel, reset et simulation automatique |
-| 📐 Q-Learning | Formule interactive avec explication des symboles |
-| 🧮 Exemple numérique | Calcul détaillé d’une nouvelle Q-value |
-| 📊 Learning Chart | Courbe de récompense cumulée avec Recharts |
-| 🧬 DQN Visualizer | Réseau de neurones animé avec Q-values fictives |
-| ⚖️ Comparaison | RL classique vs Deep Reinforcement Learning |
-| 🌍 Applications | Jeux vidéo, robotique, voitures autonomes, santé, finance, énergie, agriculture et logistique |
+|  Hero interactif | Introduction moderne avec animation du cycle Agent → Action → Environnement → Récompense |
+|  Concepts RL | Cartes interactives pour Agent, État, Action, Politique, Q-value, Exploration, Exploitation |
+|  Agent-Environnement | Schéma animé et cliquable du cycle d’apprentissage |
+|  GridWorld | Simulation 5x5 avec agent, objectif, piège, obstacles, score et état courant |
+|  Contrôles | Déplacement manuel, reset et simulation automatique |
+|  Q-Learning | Formule interactive avec explication des symboles |
+|  Exemple numérique | Calcul détaillé d’une nouvelle Q-value |
+|  Learning Chart | Courbe de récompense cumulée avec Recharts |
+|  DQN Visualizer | Réseau de neurones animé avec Q-values fictives |
+|  Comparaison | RL classique vs Deep Reinforcement Learning |
+|  Applications | Jeux vidéo, robotique, voitures autonomes, santé, finance, énergie, agriculture et logistique |
 
 ---
 
-## 🛠️ Stack technique
+##  Stack technique
 
 <p align="center">
   <img src="https://skillicons.dev/icons?i=react,vite,tailwind,js,github" alt="Tech stack icons" />
@@ -97,7 +94,7 @@ Elle met en avant les idées principales du Deep RL :
 
 ---
 
-## 📁 Structure du projet
+##  Structure du projet
 
 ```text
 DeepRL-Explorer/
@@ -128,7 +125,7 @@ DeepRL-Explorer/
 
 ---
 
-## 💻 Installation locale
+##  Installation locale
 
 Cloner le projet :
 
@@ -162,7 +159,7 @@ http://localhost:5173/DeepRL-Explorer/
 
 ---
 
-## 🧪 Commandes utiles
+##  Commandes utiles
 
 ```bash
 npm run dev
@@ -173,7 +170,7 @@ npm run lint
 
 ---
 
-## 👤 Auteur
+##  Auteur
 
 <h3 align="center">Youness Lamrini</h3>
 
@@ -189,5 +186,5 @@ npm run lint
 ---
 
 <p align="center">
-  ⭐ Projet académique réalisé pour présenter le Deep Reinforcement Learning de manière interactive.
+   Projet académique réalisé pour présenter le Deep Reinforcement Learning de manière interactive.
 </p>
