@@ -1,0 +1,30 @@
+<svg width="520" height="330" viewBox="0 0 520 330" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="520" height="330" rx="24" fill="#07111F"/>
+  <rect x="18" y="18" width="484" height="294" rx="20" fill="#0F172A" stroke="#334155"/>
+  <text x="42" y="64" fill="#67E8F9" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="700">Deep Q-Network</text>
+  <g stroke="#67E8F9" stroke-opacity="0.22">
+    <path d="M92 112L190 92M92 112L190 142M92 112L190 192M92 162L190 92M92 162L190 142M92 162L190 192M92 212L190 92M92 212L190 142M92 212L190 192"/>
+    <path d="M190 92L292 112M190 92L292 162M190 92L292 212M190 142L292 112M190 142L292 162M190 142L292 212M190 192L292 112M190 192L292 162M190 192L292 212"/>
+    <path d="M292 112L400 102M292 162L400 152M292 212L400 202"/>
+  </g>
+  <g>
+    <circle cx="92" cy="112" r="13" fill="#67E8F9"/>
+    <circle cx="92" cy="162" r="13" fill="#67E8F9"/>
+    <circle cx="92" cy="212" r="13" fill="#67E8F9"/>
+    <circle cx="190" cy="92" r="13" fill="#A78BFA"/>
+    <circle cx="190" cy="142" r="13" fill="#A78BFA"/>
+    <circle cx="190" cy="192" r="13" fill="#A78BFA"/>
+    <circle cx="292" cy="112" r="13" fill="#34D399"/>
+    <circle cx="292" cy="162" r="13" fill="#34D399"/>
+    <circle cx="292" cy="212" r="13" fill="#34D399"/>
+  </g>
+  <g>
+    <rect x="382" y="84" width="88" height="32" rx="9" fill="#0B1220" stroke="#334155"/>
+    <text x="426" y="106" text-anchor="middle" fill="#CBD5E1" font-family="Segoe UI, Arial" font-size="14">Haut 1.2</text>
+    <rect x="382" y="134" width="88" height="32" rx="9" fill="#0B1220" stroke="#334155"/>
+    <text x="426" y="156" text-anchor="middle" fill="#CBD5E1" font-family="Segoe UI, Arial" font-size="14">Bas 0.5</text>
+    <rect x="382" y="184" width="88" height="32" rx="9" fill="#22C55E" fill-opacity="0.18" stroke="#22C55E"/>
+    <text x="426" y="206" text-anchor="middle" fill="#DCFCE7" font-family="Segoe UI, Arial" font-size="14" font-weight="700">Gauche 2.8</text>
+  </g>
+  <text x="42" y="282" fill="#CBD5E1" font-family="Segoe UI, Arial, sans-serif" font-size="17">État → Réseau de neurones → Q-values → Action</text>
+</svg>

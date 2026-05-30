@@ -1,0 +1,29 @@
+<svg width="520" height="330" viewBox="0 0 520 330" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="520" height="330" rx="24" fill="#07111F"/>
+  <rect x="18" y="18" width="484" height="294" rx="20" fill="#0F172A" stroke="#334155"/>
+  <text x="42" y="64" fill="#67E8F9" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="700">GridWorld Simulation</text>
+  <g transform="translate(48 92)">
+    <rect width="168" height="168" rx="14" fill="#020617" stroke="#334155"/>
+    <g stroke="#334155">
+      <path d="M33.6 0V168M67.2 0V168M100.8 0V168M134.4 0V168"/>
+      <path d="M0 33.6H168M0 67.2H168M0 100.8H168M0 134.4H168"/>
+    </g>
+    <rect x="4" y="4" width="25" height="25" rx="7" fill="#67E8F9"/>
+    <text x="16" y="23" text-anchor="middle" font-family="Segoe UI Emoji, Segoe UI, Arial" font-size="15">🤖</text>
+    <rect x="139" y="139" width="25" height="25" rx="7" fill="#22C55E"/>
+    <text x="151" y="158" text-anchor="middle" font-family="Segoe UI Emoji, Segoe UI, Arial" font-size="15">🏁</text>
+    <rect x="105" y="72" width="25" height="25" rx="7" fill="#F43F5E"/>
+    <text x="117" y="91" text-anchor="middle" font-family="Segoe UI Emoji, Segoe UI, Arial" font-size="15">⚠️</text>
+    <rect x="38" y="38" width="25" height="25" rx="7" fill="#475569"/>
+    <rect x="72" y="38" width="25" height="25" rx="7" fill="#475569"/>
+    <rect x="72" y="105" width="25" height="25" rx="7" fill="#475569"/>
+  </g>
+  <g>
+    <rect x="260" y="101" width="200" height="46" rx="12" fill="#67E8F9" fill-opacity="0.13" stroke="#67E8F9" stroke-opacity="0.55"/>
+    <text x="280" y="130" fill="#E0F2FE" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="700">Récompense cumulée: +7</text>
+    <rect x="260" y="164" width="200" height="46" rx="12" fill="#A78BFA" fill-opacity="0.13" stroke="#A78BFA" stroke-opacity="0.55"/>
+    <text x="280" y="193" fill="#EDE9FE" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="700">État actuel: (4, 4)</text>
+    <rect x="260" y="227" width="200" height="46" rx="12" fill="#22C55E" fill-opacity="0.13" stroke="#22C55E" stroke-opacity="0.55"/>
+    <text x="280" y="256" fill="#DCFCE7" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="700">Objectif atteint</text>
+  </g>
+</svg>

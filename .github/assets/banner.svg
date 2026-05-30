@@ -1,0 +1,58 @@
+<svg width="1400" height="420" viewBox="0 0 1400 420" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1400" y2="420" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#07111F"/>
+      <stop offset="0.5" stop-color="#122060"/>
+      <stop offset="1" stop-color="#062635"/>
+    </linearGradient>
+    <radialGradient id="cyan" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1120 105) rotate(132) scale(380 360)">
+      <stop stop-color="#67E8F9" stop-opacity="0.65"/>
+      <stop offset="1" stop-color="#67E8F9" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="violet" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(275 85) rotate(48) scale(410 350)">
+      <stop stop-color="#A78BFA" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#A78BFA" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="glow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="8" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <rect width="1400" height="420" rx="34" fill="url(#bg)"/>
+  <rect width="1400" height="420" rx="34" fill="url(#cyan)"/>
+  <rect width="1400" height="420" rx="34" fill="url(#violet)"/>
+
+  <g opacity="0.25">
+    <path d="M0 92H1400M0 184H1400M0 276H1400M0 368H1400" stroke="#E2E8F0"/>
+    <path d="M100 0V420M220 0V420M340 0V420M460 0V420M580 0V420M700 0V420M820 0V420M940 0V420M1060 0V420M1180 0V420M1300 0V420" stroke="#E2E8F0"/>
+  </g>
+
+  <g filter="url(#glow)">
+    <circle cx="910" cy="152" r="22" fill="#67E8F9"/>
+    <circle cx="1030" cy="98" r="18" fill="#A78BFA"/>
+    <circle cx="1150" cy="175" r="20" fill="#34D399"/>
+    <circle cx="1072" cy="268" r="17" fill="#FBBF24"/>
+    <circle cx="1248" cy="286" r="23" fill="#67E8F9"/>
+    <path d="M910 152L1030 98L1150 175L1072 268L1248 286M910 152L1072 268M1030 98L1072 268M1150 175L1248 286" stroke="#BAE6FD" stroke-width="4" stroke-linecap="round" opacity="0.8"/>
+  </g>
+
+  <rect x="78" y="78" width="150" height="46" rx="23" fill="#67E8F9" fill-opacity="0.12" stroke="#67E8F9" stroke-opacity="0.35"/>
+  <text x="153" y="108" text-anchor="middle" fill="#CFFAFE" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="700">Deep RL</text>
+
+  <text x="78" y="190" fill="#FFFFFF" font-family="Segoe UI, Arial, sans-serif" font-size="62" font-weight="800">Deep RL Explorer</text>
+  <text x="82" y="244" fill="#CFFAFE" font-family="Segoe UI, Arial, sans-serif" font-size="26" font-weight="500">Interactive Reinforcement Learning Lab</text>
+  <text x="82" y="302" fill="#CBD5E1" font-family="Segoe UI, Arial, sans-serif" font-size="22">Agent • Environnement • Q-Learning • DQN • GridWorld</text>
+
+  <g>
+    <rect x="82" y="334" width="146" height="44" rx="12" fill="#FFFFFF" fill-opacity="0.08" stroke="#FFFFFF" stroke-opacity="0.16"/>
+    <text x="155" y="363" text-anchor="middle" fill="#E0F2FE" font-family="Segoe UI, Arial, sans-serif" font-size="17" font-weight="700">🤖 Agent</text>
+    <rect x="246" y="334" width="166" height="44" rx="12" fill="#FFFFFF" fill-opacity="0.08" stroke="#FFFFFF" stroke-opacity="0.16"/>
+    <text x="329" y="363" text-anchor="middle" fill="#E0F2FE" font-family="Segoe UI, Arial, sans-serif" font-size="17" font-weight="700">🏆 Reward</text>
+    <rect x="430" y="334" width="154" height="44" rx="12" fill="#FFFFFF" fill-opacity="0.08" stroke="#FFFFFF" stroke-opacity="0.16"/>
+    <text x="507" y="363" text-anchor="middle" fill="#E0F2FE" font-family="Segoe UI, Arial, sans-serif" font-size="17" font-weight="700">🧠 DQN</text>
+  </g>
+</svg>
